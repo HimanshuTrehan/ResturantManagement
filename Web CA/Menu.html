@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js"></script>
+    <title>Menu</title>
+
+    <script>
+      $(document).ready(function(){  
+	$(".menu-image").click(function(){  
+		$(this).css("border", "white 5px solid");  
+  });
+    
+	$("Menu-Booking").click(function(){  
+		$(".menu-image").css("border", "1px black solid");  
+	  });  
+});  
+    </script>
+
+</head>
+<body class="Menu-Booking">
+  <div class="Menu-title">
+    <h2 style="margin-top: 20px;"> Menu</h2>
+  </div>
+ 
+      <div class="menu-image"> <p style="font-weight: bold;margin-bottom: 10px;">Rs 300</p><img src="/img/pizza.jpg" alt=""> </div>
+      <div class="menu-image"> <p style="font-weight: bold;margin-bottom: 10px;">Rs 30</p> <img src="/img/samosa.jpg" alt=""> </div>
+      <div class="menu-image">  <p style="font-weight: bold;margin-bottom: 10px;">Rs 400</p><img src="/img/Thali.jpg" alt=""> </div>
+      <div class="menu-image"> <p style="font-weight: bold;margin-bottom: 10px;"> Rs 60</p> <img src="/img/burger.jpg" alt=""> </div>
+      <div class="menu-image"> <p style="font-weight: bold;margin-bottom: 10px;">Rs 50</p> <img src="/img/jalebi.jpg" alt=""> </div>
+      <div class="menu-image"> <p style="font-weight: bold;margin-bottom: 10px;">Rs 200</p> <img src="/img/cheese chilly.jpg" alt=""> </div>
+     
+     <form>
+    <div class="Book-order">
+    
+        <label>Table Number:</label>
+        <input type="number" id="tabno"  name="fname" style="font-family: FontAwesome; height:30px" placeholder=" 
+         Table No."><br><br><br>
+   
+
+        <button type="submit" style="height:30px ; width: 60px ; border-radius: 10px; margin-bottom: 20px;" onclick="bookOrder()">Submit</button>
+
+    </div>
+    
+  </form>
+</body>
+</html>

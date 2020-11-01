@@ -1,0 +1,516 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Baloo Chettan 2', cursive;
+    line-height: 1;
+}
+.ab-title
+{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    
+}
+
+/*Login page*/
+
+.Login
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("/img/brooke-lark-HlNcigvUi4Q-unsplash.jpg") center/cover no-repeat fixed;
+}
+
+.Login input
+{
+    height: 30px;
+    background: transparent;
+    border: 2px white solid;
+    border-radius: 20px;
+    color: white;
+}
+.Login #submit
+{
+width: 60px;
+border-radius: 10px;
+background: transparent;
+}
+
+.Navbar
+{
+    width: 100%;
+    background-color: #000000;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    text-align: left;
+    color: white;
+
+}
+.Navbar .logo
+{
+    display: inline;
+    
+   
+}
+.Navbar ul 
+{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.Navbar ul li
+{
+  
+    display: inline-block;
+    margin-left: 7%;
+    padding: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+
+    
+    
+}
+.Navbar ul li a{
+    text-emphasis: none;
+    text-decoration: none;
+}
+.Navbar ul .first
+{
+    margin-left: 0px;
+}
+
+
+.Navbar ul li:hover
+{
+   border: 1px white solid;
+}
+
+/*Header Section*/
+
+.header
+{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url("/img/background.jpg") center/cover no-repeat ;
+    
+    
+}
+
+  
+.head
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.head .title
+{
+    color: seashell;
+    font-size: 60px;
+}
+
+.head .head-button
+{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 200px;
+    font-weight: bold;
+    color: orangered;
+    background: yellow;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid orangered;
+    animation-direction: normal;
+
+}
+
+.head .head-button:hover
+{
+    background: white;
+    color: tomato;
+}
+ .pulsate
+{
+    animation: pulsate 3s ease-in-out;
+    animation-iteration-count: infinite;
+    opacity:.1;
+    color: black;
+}
+
+@keyframes pulsate
+{
+    0%
+    {
+        opacity: .2;
+    }
+
+    50%
+    {
+       opacity:  1;
+    }
+
+    100%
+    {
+        opacity: .2;
+    }
+}
+
+/*About us*/
+
+#about
+{
+    margin-top: 10px;
+    padding: 40px;
+    background-color: #E01DF7;
+    opacity: .4;
+}
+
+.about
+{
+    margin: 30px 0px;
+    display: flex;
+}
+.about-center
+{
+    color: white;
+}
+.about-icons .fa
+{
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.about-subtitle
+{
+    text-transform: capitalize;
+    color: white;
+    margin-left: 10px;
+}
+.about-info
+{
+    margin-top: 10px;
+    line-height: 1.5;
+    width: 150px;
+}
+.about-icons:hover .fa,
+.about-subtitle:hover{
+    transition: transform 2s ease, color 2s ease;
+    transform: translateY(-10px);
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width:570px)
+{
+    .about-center
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about{
+        flex:0 0 calc(50% -16px);
+
+    
+    }
+}
+@media screen and (min-width:570px)
+{
+.about{
+    flex:0 0 calc(33.3% -16px);
+}
+
+}
+
+.carousel-item
+{
+    margin-top: 30px;
+    height: 700px;
+    
+}
+
+.d-block w-100
+{
+    background-size: cover; 
+}
+.Contact Us
+{
+    margin-top: 30px;
+}
+
+
+.Book
+{
+    
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),
+    url("/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover no-repeat fixed;
+}
+
+.form
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+  
+    color: white;
+}
+
+.form h2
+{
+margin: 10px;
+}
+
+
+.space
+{
+    margin: 10px;
+}
+
+.Menu-background
+{
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.1)),
+    url("/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover no-repeat ;
+    margin-top: 10px;
+}
+
+.Menu-title
+{
+    text-align: center;
+    color: black;
+}
+.Menu-description h3
+{
+    text-align: center;
+    color: black;
+}
+
+.Menu-description h5
+
+{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.open-menu-button
+{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.open-menu-button button
+{
+    background: transparent;
+    width: 80px;
+    height: 40px;
+    color: white;
+   
+}
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 10px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+.Menu-Booking
+{
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.1)),
+    url("/img/menuback.jpg") center/cover no-repeat ; 
+}
+
+.menu-image
+{
+    display: inline-block;
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    border: 2px black solid;
+
+}
+
+.Book-order
+{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/js/booktable.js"></script>
+</head>
+<body class="Book">
+    <header class="B-header">
+    <div class="Book-main">
+        <form class="form">
+            <h2>Make Room Reservation  <i class="fa fa-calendar"></i></h2>
+           <div class="B-name  space"> <label> Enter Full Name:</label>
+            <input type="text" id="name"  class="xyz" name="fname" style="font-family: FontAwesome; height:30px " placeholder="&#xf007; 
+            &nbsp John Doe"><br><br><br>
+
+         <label> Enter Your Email:</label>
+            <input type="email" id="email"  class="xyz" name="fname" style="font-family: FontAwesome; height:30px" placeholder="&#xf0e0; 
+            &nbsp Email"><br><br><br>
+
+            <label> Enter Your Mob Number:</label>
+            <input type="number" id="Mob"  class="xyz" name="fname" style="font-family: FontAwesome; height:30px" placeholder="&#xf098; 
+            &nbsp Number"><br><br><br>
+
+            <label>Number of Persons:</label>
+            <input type="number" id="no_person"  class="xyz" name="fname" style="font-family: FontAwesome; height:30px" placeholder="&#xf007; 
+            &nbsp Number"><br><br><br>
+
+            <label>Table Number:</label>
+            <input type="number" id="tableno"  class="xyz" name="fname" style="font-family: FontAwesome; height:30px" placeholder="; 
+            &nbsp Table No."><br><br><br>
+
+            
+        <label>Date </label>
+        <label style="margin-left: 80px;">Time</label><br><br>
+        <input type="date" id="date" class="xyz">
+
+        
+
+        <input type="time" id="Time" class="xyz" style="margin-left: 20px;"><br><br><br>
+
+            <button type="submit" style="height:30px ; width: 60px ; border-radius: 10px;" onclick="bookValidation()">Submit</button>
+
+        </div>
+
+        </form>
+    </div>
+</header>
+</body>
+</html>
