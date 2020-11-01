@@ -23,7 +23,7 @@ body
 .Login
 {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url("img/brooke-lark-HlNcigvUi4Q-unsplash.jpg") center/cover no-repeat fixed;
+    url("../img/brooke-lark-HlNcigvUi4Q-unsplash.jpg") center/cover no-repeat fixed;
 }
 
 .Login input
@@ -97,7 +97,7 @@ background: transparent;
 {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
-    url("img/background.jpg") center/cover no-repeat ;
+    url("../img/background.jpg") center/cover no-repeat ;
     
     
 }
@@ -258,7 +258,7 @@ background: transparent;
 {
     
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),
-    url("img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover no-repeat fixed;
+    url("../img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover no-repeat fixed;
 }
 
 .form
@@ -284,7 +284,7 @@ margin: 10px;
 .Menu-background
 {
     background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.1)),
-    url("img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover no-repeat ;
+    url("../img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover no-repeat ;
     margin-top: 10px;
 }
 
@@ -492,7 +492,7 @@ margin: 10px;
 .Menu-Booking
 {
     background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.1)),
-    url("img/menuback.jpg") center/cover no-repeat ; 
+    url("../img/menuback.jpg") center/cover no-repeat ; 
 }
 
 .menu-image
